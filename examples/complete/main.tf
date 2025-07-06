@@ -1,10 +1,3 @@
-# terraform-aws-rds
-RDS module performed under Lauro Müeller's course about Terraform.
-
-This module manages the creation of an RDS instance, its Subnet Group, and Parameter Group.
-
-Sample Usage:
-```
 module "rds_module" {
   source = "./modules/rds"
 
@@ -22,4 +15,3 @@ module "rds_module" {
   subnet_ids             = [/*Subnet IDs here*/]
   vpc_security_group_ids = [/*Security Group IDs here*/]
 }
-```
