@@ -1,4 +1,4 @@
-# terraform-aws-rds
+# terraform-aws-rds-tf-course
 RDS module performed under Lauro Müeller's course about Terraform.
 
 This module manages the creation of an RDS instance, its Subnet Group, and Parameter Group.
